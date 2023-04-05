@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello")   //main
     public String getHello() {
         return "Hello 1a info!";
     }
